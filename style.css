@@ -1,33 +1,67 @@
-
 *{
   margin: 0;
   padding: 0;
-  font-family:sans-serif ;
-  box-sizing: border-box;
-  background-color: black;
+  font-family: 'poppins', sans-serif;
 }
-.navbar{
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  position: relative;
+}
+nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:black;
-  position: sticky;
-  top: 0;
+  position: relative;
+  z-index: 1;
 }
-.navbar ul{
-  display: flex;
-  list-style: none;
-  margin: 20px 0px;
+.navbar{
+  text-align: right;
+  padding: 10px 30px;
+  border-bottom-left-radius: 10px;
 }
 .navbar ul li{
-  font-weight: bold;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
 }
 .navbar ul li a{
+  color: whitesmoke;
   text-decoration: none;
-  color: yellow;
-  padding: 8px 25px;
+  font-size: 18px;
 }
 .navbar ul li a:hover{
-  background-color:black ;
-  
+  color: yellow;
+}
+.left-siderbar{
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000;
+}
+.row{
+  padding: 0 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  margin-top: -1%;
+}
+.lef-col{
+  flex-basis: 40%;
+}
+.right-col{
+  flex-basis: 55%;
+}
+.right-col{
+  font-style: 60px;
+  font-weight: 600;
+}
+.right-col{
+  color: gray;
+  margin: 20px 0 70px;
 }
