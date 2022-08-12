@@ -65,3 +65,64 @@ nav{
   color: gray;
   margin: 20px 0 70px;
 }
+#Projects{
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+
+}
+.heading{
+  text-align:  center;
+  font-size: 50px;
+}
+.Pictures{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+color: #fff;
+}
+.Pictures img{
+  width: 200px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+.Pictures img:hover{
+  background-color: #fff;
+}
+/*Education*/
+#About{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+}
+#About h1{
+  margin: 60px;
+}
+.columns{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 50px;
+}
+.box{
+  height: 200px;
+  width: 500px;
+  color: #fff;
+  font-size: 20px;
+  background-color: darkslategrey;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  
+}
+.box h2{
+  color: yellow;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.box p{
+  color: #fff;
+  font-size: 20px;
+}
