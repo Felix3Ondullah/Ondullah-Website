@@ -72,7 +72,7 @@ nav{
 }
 .heading{
   text-align:  center;
-  font-size: 50px;
+  font-size: 40px;
 }
 .Pictures{
 display: flex;
@@ -89,15 +89,15 @@ color: #fff;
 .Pictures img:hover{
   background-color: #fff;
 }
-/*Education*/
+/*About me*/
 #About{
   display: flex;
   flex-direction: column;
-  background-color: #000;
-  color: #fff;
+  background-color:whitesmoke;
+  color: black;
 }
 #About h1{
-  margin: 60px;
+  margin: 50px;
 }
 .columns{
   display: grid;
@@ -109,7 +109,7 @@ color: #fff;
   width: 500px;
   color: #fff;
   font-size: 20px;
-  background-color: darkslategrey;
+  background-color: black;
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
